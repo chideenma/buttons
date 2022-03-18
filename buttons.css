@@ -1,0 +1,173 @@
+.container {
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    padding-top: 1px;
+    margin: 0;
+    
+}
+p {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    margin: 28px 8px 8px 8px;
+}
+.div-1 {
+    cursor: pointer;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.request {
+    cursor: pointer;
+    background-color: black;
+    height: 36px;
+    width: 100px;
+    color: white;
+    margin-top: 4px;
+    margin-left: 18px;
+    margin-bottom: 8px;
+    margin-right: 0px;
+    transition: opacity 0.20s;
+    
+}
+.request:hover {
+    opacity: 0.9;
+  }
+
+.div-2 {
+    height: 40px;
+    width: 180px;
+    background-color: white;
+    padding: 8px;
+    margin-top: -20px;
+    margin-left: 28px;
+}
+.cart {
+    cursor: pointer;
+    background-color: rgb(255, 216, 20);
+    height: 38px;
+    width: 180px;
+    color: black;
+    border-radius: 18px;
+    border: none;
+    bottom: 80px;
+}
+.cart:hover{
+    background-color: blanchedalmond;
+}
+.div-3 {
+    height: 30px;
+    width: 90px;
+    background-color: white;
+    padding: 8px;
+    margin-top:-20px;
+    margin-left: 30px;
+    margin-right: 15px;
+
+}
+.sign {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 33px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    bottom: 80px;
+    transition: box-shadow 0.15s;
+  }
+  .sign:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+  }
+
+
+
+  .div-4 {
+      background-color: white;
+      height: 40px;
+      width: 220px;
+      padding: 8px;
+      margin-top: -13px;
+      margin-right: 18px;
+      margin-left: 28px;
+  }
+  .start {
+    height: 40px;
+    width: 100px;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: background-color 0.15s;
+
+  }
+  .start:hover {
+      background-color: rgb(199, 159, 236);
+      color: black;
+  }
+  .load {
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    margin-right: 35px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    transition: background-color 0.15s;
+
+  }
+
+  .load:hover{
+      background-color: rgb(132, 212, 212);
+      color: white;
+  }
+
+  .div-5 {
+    background-color: white;
+    height: 40px;
+    width: 280px;
+    padding: 8px;
+    margin-right: 5px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+  .site {
+    cursor: pointer;
+    background-color: rgb(16, 80, 175);
+    height: 36px;
+    width: 190px;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    bottom: 80px;
+    transition: background-color 0.14s;
+  }
+  .site:hover {
+      background-color: rgb(171, 171, 207);
+      color: black;
+  }
+  .save {
+      background-color: white;
+      border: 1px solid blue;
+      color: blue;
+      cursor: pointer;
+      height: 35px;
+      width: 80px;
+      border-radius: 16px;
+      transition: background-color 0.15s,
+      border-width 0.15s;
+  }
+  .save:hover {
+      background-color: lightblue;
+      border-width: 2px;
+  }
